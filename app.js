@@ -50,7 +50,8 @@ function createUserCard(user) {
                     </li>
                     <li>${user.following} <strong>Following</strong></li>
                     <li>
-                        <i class="fa-solid fa-bookmark"></i> ${user.public_repos}<strong>Repository</strong>
+                        <i class="fa-solid fa-bookmark"></i> ${user.public_repos}
+                        <strong>Repository</strong>
                     </li>
                 </ul>
 
